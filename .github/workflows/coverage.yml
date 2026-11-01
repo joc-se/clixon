@@ -1,8 +1,6 @@
 name: Clixon Coverage
 
 on:
-  schedule:
-    - cron: '0 2 * * 1'   # Weekly, Monday 02:00 UTC
   workflow_dispatch:       # Allow manual triggering
 
 jobs:
